@@ -13,8 +13,9 @@ A reconciliação bancária manual é um processo demorado e suscetível a erros
 - Exibição dos resultados da reconciliação em uma interface gráfica.
 
 ## Stacks Utilizadas
-- **Linguagem de Programação**: Python
-- **Bibliotecas**: pandas, tkinter
+- **Python**
+- **Pandas**
+- **Tkinter**
 
 ## Instalação
 
