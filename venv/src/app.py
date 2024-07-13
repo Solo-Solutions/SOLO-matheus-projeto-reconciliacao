@@ -27,7 +27,7 @@ class Janela():
     # Def que pede pro usuário abrir o arquivo do extrato e o lê, assim como o mostra na tela
     def extrato(self):
         # Faz o usuário carregar o arquivo
-        self.arquivo = filedialog.askopenfile(mode='r', initialdir='/Users/usuario/Documents/arqv')
+        self.arquivo = filedialog.askopenfile(mode='r', initialdir='/Documents')
         if self.arquivo:
             self.extrato = pd.read_excel(self.arquivo.name)
             self.texto.insert(END, 'Extrato Bancário Carregado: \n')
@@ -37,7 +37,7 @@ class Janela():
     # Def que pede pro usuário abrir o arquivo do registro e o lê, assim como o mostra na tela
     def registro(self):
         # Faz o usuário carregar o arquivo
-        self.arquivo = filedialog.askopenfile(mode='r', initialdir='/Users/usuario/Documents/arqv')
+        self.arquivo = filedialog.askopenfile(mode='r', initialdir='/Documents')
         if self.arquivo:
             self.registro = pd.read_excel(self.arquivo.name)
             self.texto.insert(END, 'Registros Bancário Carregado: \n')
